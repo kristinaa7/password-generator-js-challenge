@@ -25,11 +25,10 @@ function generatePassword() {
   alert('Hello!👋 Please answer the following questions to generate a secure password.');
 
   var x = prompt("How many characters would you like your password to have?");
-  if (x >= 8 || x <= 128)
-    {
+  if (x >= 8 && x <= 128) {
   alert('You have chosen an appropriate amount of characters.');
     } else {
-    alert('You must have at least 8 and no more than 128 characters to create a password using the generator. Please try again.');
+    alert('Please try again. You must have at least 8 and no more than 128 characters to create a password using the generator.');
     }
 
   let lowercase = confirm("Would you like your password to include lowercase?");
