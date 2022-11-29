@@ -18,7 +18,12 @@ And finally when you complete all the prompts, the password will generate in the
 
 Enjoy!
 
+## Preview of the Password Generator
 ![alt text](assets/passwordpic.png)
+
+## Link
+
+https://kristinaa7.github.io/unique-random-password-generator/
 
 ## Credits
 
